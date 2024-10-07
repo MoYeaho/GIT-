@@ -1,0 +1,11 @@
+[Git Flow]
+- main 브랜치
+- develop 브랜치(개발용)
+- feature 브랜치(develop 브랜치에 기능 추가용)
+- hotfix 브랜치(main 브랜치 버그 해결용)
+- release 브랜치(develop 브랜치를 main 브랜치에 합치기 전에 최종 테스트용)
+
+[Trunk-bases 전략]
+1. 기능추가, 버그픽스가 필요하면 main 브랜치에서 새로운 브랜치를 하나 만들어서 코드 작성
+2. 기능이 완성되면 main 브랜치와 결합
+3. main 브랜치를 배포
